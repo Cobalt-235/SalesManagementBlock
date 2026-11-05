@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hi\\Desktop\\NShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BD54CF-DE28-AA17-CF40-00BA52DD9FA8}|NShop\\NShop.csproj|c:\\users\\hi\\desktop\\nshop\\nshop\\dal\\dbhandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3BD54CF-DE28-AA17-CF40-00BA52DD9FA8}|NShop\\NShop.csproj|solutionrelative:nshop\\dal\\dbhandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BD54CF-DE28-AA17-CF40-00BA52DD9FA8}|NShop\\NShop.csproj|c:\\users\\hi\\desktop\\nshop\\nshop\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3BD54CF-DE28-AA17-CF40-00BA52DD9FA8}|NShop\\NShop.csproj|solutionrelative:nshop\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BD54CF-DE28-AA17-CF40-00BA52DD9FA8}|NShop\\NShop.csproj|c:\\users\\hi\\desktop\\nshop\\nshop\\dto\\billingdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3BD54CF-DE28-AA17-CF40-00BA52DD9FA8}|NShop\\NShop.csproj|solutionrelative:nshop\\dto\\billingdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BD54CF-DE28-AA17-CF40-00BA52DD9FA8}|NShop\\NShop.csproj|c:\\users\\hi\\desktop\\nshop\\nshop\\ui\\frmaddproductdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3BD54CF-DE28-AA17-CF40-00BA52DD9FA8}|NShop\\NShop.csproj|solutionrelative:nshop\\ui\\frmaddproductdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BD54CF-DE28-AA17-CF40-00BA52DD9FA8}|NShop\\NShop.csproj|c:\\users\\hi\\desktop\\nshop\\nshop\\ui\\frmaddproductdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3BD54CF-DE28-AA17-CF40-00BA52DD9FA8}|NShop\\NShop.csproj|solutionrelative:nshop\\ui\\frmaddproductdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BD54CF-DE28-AA17-CF40-00BA52DD9FA8}|NShop\\NShop.csproj|C:\\Users\\Hi\\Desktop\\NShop\\nshop\\ui\\frmaddproductfirststep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3BD54CF-DE28-AA17-CF40-00BA52DD9FA8}|NShop\\NShop.csproj|solutionrelative:nshop\\ui\\frmaddproductfirststep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Hi\\Desktop\\NShop\\NShop\\DTO\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "NShop\\DTO\\ProductDTO.cs",
+              "ToolTip": "C:\\Users\\Hi\\Desktop\\NShop\\NShop\\DTO\\ProductDTO.cs",
+              "RelativeToolTip": "NShop\\DTO\\ProductDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T07:27:14.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BillingDetailDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Hi\\Desktop\\NShop\\NShop\\DTO\\BillingDetailDTO.cs",
+              "RelativeDocumentMoniker": "NShop\\DTO\\BillingDetailDTO.cs",
+              "ToolTip": "C:\\Users\\Hi\\Desktop\\NShop\\NShop\\DTO\\BillingDetailDTO.cs",
+              "RelativeToolTip": "NShop\\DTO\\BillingDetailDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T07:25:58.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DbHandling.cs",
+              "DocumentMoniker": "C:\\Users\\Hi\\Desktop\\NShop\\NShop\\DAL\\DbHandling.cs",
+              "RelativeDocumentMoniker": "NShop\\DAL\\DbHandling.cs",
+              "ToolTip": "C:\\Users\\Hi\\Desktop\\NShop\\NShop\\DAL\\DbHandling.cs",
+              "RelativeToolTip": "NShop\\DAL\\DbHandling.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T07:08:59.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmAddProductDetails.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Hi\\Desktop\\NShop\\NShop\\UI\\frmAddProductDetails.cs",
+              "RelativeDocumentMoniker": "NShop\\UI\\frmAddProductDetails.cs",
+              "ToolTip": "C:\\Users\\Hi\\Desktop\\NShop\\NShop\\UI\\frmAddProductDetails.cs [Design]",
+              "RelativeToolTip": "NShop\\UI\\frmAddProductDetails.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T06:20:10.979Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmAddProductFirstStep.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Hi\\Desktop\\NShop\\NShop\\UI\\frmAddProductFirstStep.cs",
+              "RelativeDocumentMoniker": "NShop\\UI\\frmAddProductFirstStep.cs",
+              "ToolTip": "C:\\Users\\Hi\\Desktop\\NShop\\NShop\\UI\\frmAddProductFirstStep.cs [Design]",
+              "RelativeToolTip": "NShop\\UI\\frmAddProductFirstStep.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T06:20:09.054Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmAddProductDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Hi\\Desktop\\NShop\\NShop\\UI\\frmAddProductDetails.cs",
+              "RelativeDocumentMoniker": "NShop\\UI\\frmAddProductDetails.cs",
+              "ToolTip": "C:\\Users\\Hi\\Desktop\\NShop\\NShop\\UI\\frmAddProductDetails.cs",
+              "RelativeToolTip": "NShop\\UI\\frmAddProductDetails.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAswCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T01:23:00.305Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
