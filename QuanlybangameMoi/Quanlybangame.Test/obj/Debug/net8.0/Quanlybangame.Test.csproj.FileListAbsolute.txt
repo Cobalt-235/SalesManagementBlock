@@ -1,0 +1,7 @@
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.Test\bin\Debug\net8.0\.msCoverageSourceRootsMapping_Quanlybangame.Test
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.Test\obj\Debug\net8.0\Quanlybangame.Test.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.Test\obj\Debug\net8.0\Quanlybangame.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.Test\obj\Debug\net8.0\Quanlybangame.Test.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.Test\obj\Debug\net8.0\Quanlybangame.Test.AssemblyInfo.cs
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.Test\obj\Debug\net8.0\Quanlybangame.Test.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.Test\obj\Debug\net8.0\Quanlybangame.Test.sourcelink.json

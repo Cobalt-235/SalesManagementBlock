@@ -2,7 +2,6 @@
 using Quanlybangame.BLL;
 using Quanlybangame.DTO;
 using QuanlybangameMoi_UI;
-using QuanlybangameMoi_UI.Forms;
 
 namespace Quanlybangame.UI.Forms;
 

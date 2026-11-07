@@ -1,4 +1,4 @@
-﻿using QuanlybangameMoi_UI.Forms;
+﻿using QuanlybangameMoi_UI;
 
 namespace Quanlybangame.UI.Forms;
 

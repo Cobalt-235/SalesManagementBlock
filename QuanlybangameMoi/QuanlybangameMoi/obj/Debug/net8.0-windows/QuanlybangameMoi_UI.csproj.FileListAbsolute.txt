@@ -45,3 +45,8 @@ C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameM
 C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\QuanlybangameMoi\obj\Debug\net8.0-windows\Quanlybangame.UI.Forms.nhapkho.resources
 C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\QuanlybangameMoi\obj\Debug\net8.0-windows\Quanlybangame.UI.Forms.nhaplydo.resources
 C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\QuanlybangameMoi\obj\Debug\net8.0-windows\Quanlybangame.UI.Forms.nhatky.resources
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\QuanlybangameMoi\obj\Debug\net8.0-windows\Quanlybangame.UI.Forms.suakhachhang.resources
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\QuanlybangameMoi\obj\Debug\net8.0-windows\Quanlybangame.UI.Forms.suasanpham.resources
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\QuanlybangameMoi\obj\Debug\net8.0-windows\Quanlybangame.UI.Forms.taohoadon.resources
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\QuanlybangameMoi\obj\Debug\net8.0-windows\Quanlybangame.UI.Forms.trangchinh.resources
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\QuanlybangameMoi\obj\Debug\net8.0-windows\Quanlybangame.UI.Forms.xemhoadon.resources
