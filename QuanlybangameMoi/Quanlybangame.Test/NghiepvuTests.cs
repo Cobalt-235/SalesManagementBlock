@@ -1,6 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
-using Microsoft.Testing.Platform.Logging;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Quanlybangame.BLL;
 using Quanlybangame.DAL;
@@ -14,13 +13,13 @@ public sealed class NghiepvuTests
     private DalGia dal = null!;
     private CuahangBLL bll = null!;
     [TestInitialize] public void Khoitao() { dal = new(); bll = new(dal, NullLogger<CuahangBLL>.Instance); }
-    private static SanphamDTO Game() => new() { Ma = " sp_01 ", Ten = " Elden Ring ", Theloai = " Nhập vai ", Nentang = " PC ", Giaban = 500000, Tonkho = 3 };
-    private static KhachhangDTO Khach() => new() { Ma = " kh001 ", Hoten = " Trần Tín ", Dienthoai = " 0901234567 ", Email = "tin@example.com" };
+    private static SanphamDTO Game() => new() { Ma = " sp_01 ", Ten = " Elden Ring ", Theloai = " Nh?p vai ", Nentang = " PC ", Giaban = 500000, Tonkho = 3 };
+    private static KhachhangDTO Khach() => new() { Ma = " kh001 ", Hoten = " Tr?n Tin ", Dienthoai = " 0901234567 ", Email = "tin@example.com" };
     private static YeucaubanDTO Don() => new() { Chitiet = [new() { SanphamId = 1, Dongia = 500000, Soluong = 2 }], Giamgia = 100000 };
 
     [TestMethod] public void ThemGame_ChuanhoaVaGoiDal() { var s = Game(); int id = bll.LuuSanpham(s); Assert.AreEqual(1, id); Assert.AreEqual("SP_01", dal.SanphamDaLuu!.Ma); Assert.AreEqual("Elden Ring", s.Ten); }
     [TestMethod] public void Game_ThieuTen_KhongGhiDal() { var s = Game(); s.Ten = " "; Assert.ThrowsException<ArgumentException>(() => bll.LuuSanpham(s)); Assert.AreEqual(0, dal.SolanGhi); }
-    [TestMethod] public void Game_MaCoDau_BiTuChoi() { var s = Game(); s.Ma = "sảnphẩm"; Assert.ThrowsException<ArgumentException>(() => bll.LuuSanpham(s)); }
+    [TestMethod] public void Game_MaCoDau_BiTuChoi() { var s = Game(); s.Ma = "s?nph?m"; Assert.ThrowsException<ArgumentException>(() => bll.LuuSanpham(s)); }
     [DataTestMethod, DataRow(0), DataRow(-1), DataRow(1000000001)]
     public void Game_GiabanNgoaiMien_BiTuChoi(int gia) { var s = Game(); s.Giaban = gia; Assert.ThrowsException<ArgumentException>(() => bll.LuuSanpham(s)); }
     [TestMethod] public void Game_GiaLeDong_BiTuChoi() { var s = Game(); s.Giaban = 1.5m; Assert.ThrowsException<ArgumentException>(() => bll.LuuSanpham(s)); }
@@ -28,7 +27,7 @@ public sealed class NghiepvuTests
     [TestMethod] public void Game_Ton0VaGiaToida_HopLe() { var s = Game(); s.Tonkho = 0; s.Giaban = 1000000000; bll.LuuSanpham(s); Assert.AreEqual(1, dal.SolanGhi); }
     [TestMethod] public void SuaGame_ThieuRowversion_BiTuChoi() { var s = Game(); s.Id = 3; Assert.ThrowsException<ArgumentException>(() => bll.LuuSanpham(s)); }
     [TestMethod] public void SuaGame_CoRowversion_GiuNguyenPhienban() { var s = Game(); s.Id = 3; s.Phienban = [1, 2, 3, 4, 5, 6, 7, 8]; bll.LuuSanpham(s); CollectionAssert.AreEqual(s.Phienban, dal.SanphamDaLuu!.Phienban); }
-    [TestMethod] public void SuaGame_XungdotDuLieu_KhongBaoThanhcong() { var s = Game(); dal.LoiKhiGhi = new InvalidOperationException("Đã đổi dữ liệu"); Assert.ThrowsException<InvalidOperationException>(() => bll.LuuSanpham(s)); Assert.AreEqual(0, dal.SolanGhi); }
+    [TestMethod] public void SuaGame_XungdotDuLieu_KhongBaoThanhcong() { var s = Game(); dal.LoiKhiGhi = new InvalidOperationException("?a ??i d? li?u"); Assert.ThrowsException<InvalidOperationException>(() => bll.LuuSanpham(s)); Assert.AreEqual(0, dal.SolanGhi); }
     [TestMethod] public void XoaGame_ChuaChon_BiTuChoi() => Assert.ThrowsException<ArgumentException>(() => bll.XoaSanpham(Game()));
     [TestMethod] public void Khach_HopLe_ChuanhoaVaLuu() { var k = Khach(); bll.LuuKhachhang(k); Assert.AreEqual("KH001", dal.KhachDaLuu!.Ma); Assert.AreEqual("0901234567", k.Dienthoai); }
     [DataTestMethod, DataRow("123"), DataRow("+84901234567"), DataRow("09012abc67"), DataRow("090123456789")]
@@ -47,7 +46,7 @@ public sealed class NghiepvuTests
     [TestMethod] public void Don_DoiThutuDong_MaBamGiongNhau() { var y = Don(); y.Chitiet.Add(new() { SanphamId = 2, Dongia = 100, Soluong = 1 }); bll.TaoHoadon(y); string bam = y.MaBam; y.Chitiet.Reverse(); bll.TaoHoadon(y); Assert.AreEqual(bam, y.MaBam); }
     [TestMethod] public void Don_DoiSoluong_MaBamKhac() { var y = Don(); bll.TaoHoadon(y); string cu = y.MaBam; y.Chitiet[0].Soluong = 3; bll.TaoHoadon(y); Assert.AreNotEqual(cu, y.MaBam); }
     [TestMethod] public void Huy_ThieuLydo_BiTuChoi() => Assert.ThrowsException<ArgumentException>(() => bll.HuyHoadon(1, " "));
-    [TestMethod] public void Huy_CoLydo_GoiDal() { bll.HuyHoadon(1, "Khách đổi ý"); Assert.AreEqual(1, dal.SolanGhi); }
+    [TestMethod] public void Huy_CoLydo_GoiDal() { bll.HuyHoadon(1, "Khach ??i y"); Assert.AreEqual(1, dal.SolanGhi); }
     [TestMethod] public void Nhap_Soluong0_BiTuChoi() => Assert.ThrowsException<ArgumentException>(() => bll.Nhapkho(new() { SanphamId = 1, Nhacungcap = "NCC" }));
     [TestMethod] public void Nhap_ThieuNhacungcap_BiTuChoi() => Assert.ThrowsException<ArgumentException>(() => bll.Nhapkho(new() { SanphamId = 1, Soluong = 1 }));
     [TestMethod] public void Nhap_HopLe_LuuVaCoMaBam() { var p = new NhapkhoDTO { SanphamId = 1, Soluong = 5, Dongia = 300000, Nhacungcap = " NCC " }; bll.Nhapkho(p); Assert.AreEqual("NCC", dal.PhieuDaLuu!.Nhacungcap); Assert.AreEqual(64, p.MaBam.Length); }
