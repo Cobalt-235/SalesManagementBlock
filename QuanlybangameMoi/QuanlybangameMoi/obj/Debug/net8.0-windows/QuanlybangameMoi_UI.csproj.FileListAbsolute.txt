@@ -16,3 +16,12 @@ C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame
 C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\QuanlybangameMoi\obj\Debug\net8.0-windows\QuanlybangameMoi_UI.genruntimeconfig.cache
 C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\QuanlybangameMoi\obj\Debug\net8.0-windows\ref\QuanlybangameMoi_UI.dll
 C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\QuanlybangameMoi\obj\Debug\net8.0-windows\Quanlyba.94560260.Up2Date
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\QuanlybangameMoi\obj\Debug\net8.0-windows\Quanlybangame.UI.Forms.quanlydoanhthu.resources
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\QuanlybangameMoi\obj\Debug\net8.0-windows\QuanlybangameMoi_UI.Forms.quanlyhoadon.resources
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\QuanlybangameMoi\obj\Debug\net8.0-windows\QuanlybangameMoi_UI.Forms.quanlykhachhang.resources
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\QuanlybangameMoi\obj\Debug\net8.0-windows\QuanlybangameMoi_UI.Forms.quanlysanpham.resources
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\QuanlybangameMoi\obj\Debug\net8.0-windows\QuanlybangameMoi_UI.Forms.quanlytonkho.resources
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\QuanlybangameMoi\obj\Debug\net8.0-windows\QuanlybangameMoi_UI.Forms.suakhachhang.resources
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\QuanlybangameMoi\obj\Debug\net8.0-windows\QuanlybangameMoi_UI.Forms.suasanpham.resources
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\QuanlybangameMoi\obj\Debug\net8.0-windows\QuanlybangameMoi_UI.Forms.taohoadon.resources
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\QuanlybangameMoi\obj\Debug\net8.0-windows\QuanlybangameMoi_UI.Forms.xemhoadon.resources

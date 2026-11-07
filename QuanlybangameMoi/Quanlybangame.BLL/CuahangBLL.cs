@@ -52,6 +52,57 @@ namespace Quanlybangame.BLL
             dal.XoaSanpham(s); log.LogInformation("Xóa sản phẩm {Ma}, Id {Id}", s.Ma, s.Id); return 0;
         });
 
-        // Bo sung them cac method ve khach hang, xoa dong nay sau khi them
+        public static void KiemtraKhoangngay(DateTime tu, DateTime den)
+        {
+            if (tu.Date > den.Date) throw new ArgumentException("Từ ngày phải nhỏ hơn hoặc bằng đến ngày.");
+            if (tu.Year < 2000 || den.Year > 2100) throw new ArgumentException("Vui lòng chọn ngày trong khoảng năm 2000–2100.");
+        }
+        public List<HoadonDTO> TimHoadon(DateTime tu, DateTime den, string tukhoa = "", int? khachhangId = null) => Thucthi("tìm hóa đơn", () =>
+        {
+            KiemtraKhoangngay(tu, den); return dal.TimHoadon(tu.Date, den.Date, Chuanhoa(tukhoa), khachhangId);
+        });
+        public HoadonDTO DocHoadon(int id) => Thucthi("đọc hóa đơn", () => dal.DocHoadon(id));
+        private static string Bam(object data) => Convert.ToHexString(SHA256.HashData(Encoding.UTF8.GetBytes(JsonSerializer.Serialize(data))));
+        public int TaoHoadon(YeucaubanDTO y) => Thucthi("tạo hóa đơn", () =>
+        {
+            if (y.YeucauId == Guid.Empty) throw new ArgumentException("Mã yêu cầu hóa đơn không hợp lệ.");
+            y.Ghichu = Chuanhoa(y.Ghichu); Chuoi(y.Ghichu, "ghi chú", 500);
+            if (y.KhachhangId <= 0) throw new ArgumentException("Khách hàng không hợp lệ.");
+            if (y.Chitiet.Count is < 1 or > 200) throw new ArgumentException("Hóa đơn phải có từ 1 đến 200 game.");
+            if (y.Chitiet.GroupBy(x => x.SanphamId).Any(g => g.Count() > 1)) throw new ArgumentException("Một game chỉ được có một dòng trong giỏ hàng. Hãy cập nhật số lượng.");
+            foreach (var d in y.Chitiet)
+            {
+                if (d.SanphamId <= 0 || d.Soluong is < 1 or > 100000) throw new ArgumentException("Game phải hợp lệ; số lượng mỗi dòng từ 1 đến 100.000.");
+                Tien(d.Dongia, "Đơn giá", false);
+            }
+            decimal tam = y.Chitiet.Sum(x => x.Thanhtien);
+            if (y.Giamgia < 0 || y.Giamgia > tam || decimal.Truncate(y.Giamgia) != y.Giamgia) throw new ArgumentException("Giảm giá phải là số nguyên từ 0 đến tổng tiền hàng.");
+            y.MaBam = Bam(new { y.KhachhangId, y.Giamgia, y.Ghichu, Dong = y.Chitiet.OrderBy(d => d.SanphamId).Select(d => new { d.SanphamId, d.Soluong, d.Dongia }) });
+            int id = dal.TaoHoadon(y); log.LogInformation("Lưu hóa đơn {HoadonId}, yêu cầu {YeucauId}, tổng {Tong}", id, y.YeucauId, tam - y.Giamgia); return id;
+        });
+        public void HuyHoadon(int id, string lydo) => Thucthi("hủy hóa đơn", () =>
+        {
+            if (id <= 0) throw new ArgumentException("Vui lòng chọn hóa đơn.");
+            lydo = Chuanhoa(lydo); Chuoi(lydo, "lý do hủy", 250, true);
+            dal.HuyHoadon(id, lydo); log.LogWarning("Hủy hóa đơn {HoadonId}, đã hoàn kho", id); return 0;
+        });
+        public void Nhapkho(NhapkhoDTO p) => Thucthi("nhập kho", () =>
+        {
+            if (p.YeucauId == Guid.Empty || p.SanphamId <= 0 || p.Soluong is < 1 or > 100000) throw new ArgumentException("Chọn game và nhập số lượng từ 1 đến 100.000.");
+            Tien(p.Dongia, "Đơn giá nhập"); p.Nhacungcap = Chuanhoa(p.Nhacungcap); p.Ghichu = Chuanhoa(p.Ghichu);
+            Chuoi(p.Nhacungcap, "nhà cung cấp", 100, true); Chuoi(p.Ghichu, "ghi chú", 500);
+            p.MaBam = Bam(new { p.SanphamId, p.Soluong, p.Dongia, p.Nhacungcap, p.Ghichu });
+            dal.Nhapkho(p); log.LogInformation("Nhập kho game {SanphamId}, số lượng {Soluong}, yêu cầu {YeucauId}", p.SanphamId, p.Soluong, p.YeucauId); return 0;
+        });
+        public List<LichsukhoDTO> DocLichsukho(int? id = null) => Thucthi("đọc lịch sử kho", () => dal.DocLichsukho(id));
+        public BaocaodoanhthuDTO DocDoanhthu(DateTime tu, DateTime den) => Thucthi("thống kê doanh thu", () =>
+        {
+            KiemtraKhoangngay(tu, den);
+            if ((den.Date - tu.Date).Days > 3660) throw new ArgumentException("Mỗi báo cáo tối đa 10 năm. Hãy thu hẹp khoảng ngày.");
+            var nguon = dal.DocDoanhthu(tu.Date, den.Date).ToDictionary(x => x.Ngay.Date);
+            var bc = new BaocaodoanhthuDTO { Tungay = tu.Date, Denngay = den.Date };
+            for (var ngay = tu.Date; ngay <= den.Date; ngay = ngay.AddDays(1)) bc.Chitiet.Add(nguon.GetValueOrDefault(ngay) ?? new DoanhthuNgayDTO { Ngay = ngay });
+            log.LogDebug("Đọc doanh thu từ {Tu} đến {Den}, số hóa đơn {So}", tu, den, bc.Sohoadon); return bc;
+        });
     }
 }
