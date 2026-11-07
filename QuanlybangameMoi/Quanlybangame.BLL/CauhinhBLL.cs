@@ -4,7 +4,7 @@ using Quanlybangame.DTO;
 
 namespace Quanlybangame.BLL
 {
-    internal class CauhinhBLL
+    public class CauhinhBLL
     {
         public static string Thumuc => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "QuanlybangameMoi");
         // Cấu hình ở DAL; không cần form kết nối hoặc file lưu mật khẩu.
