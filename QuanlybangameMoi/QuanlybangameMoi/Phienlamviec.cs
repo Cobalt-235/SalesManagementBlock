@@ -2,7 +2,7 @@
 using Quanlybangame.BLL;
 using Quanlybangame.DTO;
 
-namespace Quanlybangame.UI;
+namespace QuanlybangameMoi_UI;
 internal static class Phienlamviec
 {
     public static readonly ILoggerFactory Bolog = LoggerFactory.Create(b => b.SetMinimumLevel(LogLevel.Debug).AddProvider(new NhatkyProvider()));

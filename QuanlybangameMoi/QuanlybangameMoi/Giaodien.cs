@@ -4,6 +4,7 @@ using System.Drawing.Drawing2D;
 using Microsoft.Extensions.Logging;
 using Quanlybangame.BLL;
 using Quanlybangame.DTO;
+using QuanlybangameMoi_UI;
 
 namespace Quanlybangame.UI;
 

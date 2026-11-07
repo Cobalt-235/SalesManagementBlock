@@ -1,50 +1,26 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
-    "net8.0": {
-      "Quanlybangame.DTO/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/Quanlybangame.DTO.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Quanlybangame.DTO.dll": {}
-        }
-      }
-    }
+    "net8.0": {}
   },
-  "libraries": {
-    "Quanlybangame.DTO/1.0.0": {
-      "type": "project",
-      "path": "../Quanlybangame.DTO/Quanlybangame.DTO.csproj",
-      "msbuildProject": "../Quanlybangame.DTO/Quanlybangame.DTO.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net8.0": [
-      "Quanlybangame.DTO >= 1.0.0"
-    ]
+    "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Tin\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Hi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\Desgihub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DAL\\Quanlybangame.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\Hi\\Documents\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DAL\\Quanlybangame.DAL.csproj",
       "projectName": "Quanlybangame.DAL",
-      "projectPath": "Z:\\Desgihub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DAL\\Quanlybangame.DAL.csproj",
-      "packagesPath": "C:\\Users\\Tin\\.nuget\\packages\\",
-      "outputPath": "Z:\\Desgihub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DAL\\obj\\",
+      "projectPath": "C:\\Users\\Hi\\Documents\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DAL\\Quanlybangame.DAL.csproj",
+      "packagesPath": "C:\\Users\\Hi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Hi\\Documents\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DAL\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Tin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -56,12 +32,9 @@
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
-          "projectReferences": {
-            "Z:\\Desgihub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DTO\\Quanlybangame.DTO.csproj": {
-              "projectPath": "Z:\\Desgihub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DTO\\Quanlybangame.DTO.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -74,10 +47,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.400"
     },
     "frameworks": {
       "net8.0": {
+        "framework": "net8.0",
         "targetAlias": "net8.0",
         "imports": [
           "net461",
@@ -95,7 +69,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
