@@ -77,4 +77,21 @@ namespace Quanlybangame.DTO
         public string Nhacungcap { get; set; } = "";
         public string Ghichu { get; set; } = "";
     }
+    public sealed class LichsukhoDTO
+    {
+        public DateTime Ngay { get; set; }
+        public string Ma { get; set; } = "";
+        public string Ten { get; set; } = "";
+        public string Loai { get; set; } = "";
+        public int Soluong { get; set; }
+        public int Tonsau { get; set; }
+        public string Thamchieu { get; set; } = "";
+        public string Ghichu { get; set; } = "";
+    }
+    public sealed class DoanhthuNgayDTO
+    {
+        public DateTime Ngay { get; set; }
+        public int Sohoadon { get; set; }
+        public decimal Doanhthu { get; set; }
+    }
 }
