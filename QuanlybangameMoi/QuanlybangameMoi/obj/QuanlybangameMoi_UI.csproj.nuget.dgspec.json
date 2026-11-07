@@ -1,36 +1,189 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\Desgihub\\SalesManagementBlock\\QuanlybangameMoi\\QuanlybangameMoi\\QuanlybangameMoi_UI.csproj": {}
+    "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\QuanlybangameMoi\\QuanlybangameMoi_UI.csproj": {}
   },
   "projects": {
-    "Z:\\Desgihub\\SalesManagementBlock\\QuanlybangameMoi\\QuanlybangameMoi\\QuanlybangameMoi_UI.csproj": {
+    "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.BLL\\Quanlybangame.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Desgihub\\SalesManagementBlock\\QuanlybangameMoi\\QuanlybangameMoi\\QuanlybangameMoi_UI.csproj",
-        "projectName": "QuanlybangameMoi_UI",
-        "projectPath": "Z:\\Desgihub\\SalesManagementBlock\\QuanlybangameMoi\\QuanlybangameMoi\\QuanlybangameMoi_UI.csproj",
-        "packagesPath": "C:\\Users\\Tin\\.nuget\\packages\\",
-        "outputPath": "Z:\\Desgihub\\SalesManagementBlock\\QuanlybangameMoi\\QuanlybangameMoi\\obj\\",
+        "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.BLL\\Quanlybangame.BLL.csproj",
+        "projectName": "Quanlybangame.BLL",
+        "projectPath": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.BLL\\Quanlybangame.BLL.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Tin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0-windows"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0-windows7.0": {
-            "targetAlias": "net8.0-windows",
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DAL\\Quanlybangame.DAL.csproj": {
+                "projectPath": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DAL\\Quanlybangame.DAL.csproj"
+              },
+              "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DTO\\Quanlybangame.DTO.csproj": {
+                "projectPath": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DTO\\Quanlybangame.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DAL\\Quanlybangame.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DAL\\Quanlybangame.DAL.csproj",
+        "projectName": "Quanlybangame.DAL",
+        "projectPath": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DAL\\Quanlybangame.DAL.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DTO\\Quanlybangame.DTO.csproj": {
+                "projectPath": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DTO\\Quanlybangame.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DTO\\Quanlybangame.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DTO\\Quanlybangame.DTO.csproj",
+        "projectName": "Quanlybangame.DTO",
+        "projectPath": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DTO\\Quanlybangame.DTO.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -44,11 +197,89 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\QuanlybangameMoi\\QuanlybangameMoi_UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\QuanlybangameMoi\\QuanlybangameMoi_UI.csproj",
+        "projectName": "QuanlybangameMoi_UI",
+        "projectPath": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\QuanlybangameMoi\\QuanlybangameMoi_UI.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\QuanlybangameMoi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.BLL\\Quanlybangame.BLL.csproj": {
+                "projectPath": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.BLL\\Quanlybangame.BLL.csproj"
+              },
+              "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DTO\\Quanlybangame.DTO.csproj": {
+                "projectPath": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DTO\\Quanlybangame.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -68,7 +299,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
