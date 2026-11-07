@@ -19,4 +19,15 @@ namespace Quanlybangame.DTO
         public string Trangthai => !Dangban ? "Ngừng bán" : Tonkho == 0 ? "Hết hàng" : Tonkho <= TonToithieu ? "Sắp hết" : "Còn hàng";
         public string Hienthi => $"{Ma} • {Ten} [{Nentang}]";
     }
+    public sealed class KhachhangDTO
+    {
+        public int Id { get; set; }
+        public string Ma { get; set; } = "";
+        public string Hoten { get; set; } = "";
+        public string Dienthoai { get; set; } = "";
+        public string Email { get; set; } = "";
+        public string Diachi { get; set; } = "";
+        public byte[] Phienban { get; set; } = [];
+        public override string ToString() => Id == 0 ? "Khách lẻ" : $"{Ma} • {Hoten}";
+    }
 }

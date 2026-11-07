@@ -1,26 +1,31 @@
 {
-  "version": 4,
+  "version": 3,
   "targets": {
-    "net8.0-windows": {}
+    "net8.0-windows7.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net8.0-windows": []
+    "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Hi\\.nuget\\packages\\": {}
+    "C:\\Users\\Tin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hi\\Documents\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\QuanlybangameMoi\\QuanlybangameMoi_UI.csproj",
+      "projectUniqueName": "Z:\\Desgihub\\SalesManagementBlock\\QuanlybangameMoi\\QuanlybangameMoi\\QuanlybangameMoi_UI.csproj",
       "projectName": "QuanlybangameMoi_UI",
-      "projectPath": "C:\\Users\\Hi\\Documents\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\QuanlybangameMoi\\QuanlybangameMoi_UI.csproj",
-      "packagesPath": "C:\\Users\\Hi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hi\\Documents\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\QuanlybangameMoi\\obj\\",
+      "projectPath": "Z:\\Desgihub\\SalesManagementBlock\\QuanlybangameMoi\\QuanlybangameMoi\\QuanlybangameMoi_UI.csproj",
+      "packagesPath": "C:\\Users\\Tin\\.nuget\\packages\\",
+      "outputPath": "Z:\\Desgihub\\SalesManagementBlock\\QuanlybangameMoi\\QuanlybangameMoi\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -31,8 +36,7 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0-windows": {
-          "framework": "net8.0-windows7.0",
+        "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {}
         }
@@ -47,11 +51,10 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.400"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
-      "net8.0-windows": {
-        "framework": "net8.0-windows7.0",
+      "net8.0-windows7.0": {
         "targetAlias": "net8.0-windows",
         "imports": [
           "net461",
@@ -72,7 +75,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
