@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuanlybangameMoi_UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f0f2f7dd2b38c5f97106a51d7ba680e12473622")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2327162d93f8483f20917598cf9b7cccb292fdfd")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuanlybangameMoi_UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuanlybangameMoi_UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

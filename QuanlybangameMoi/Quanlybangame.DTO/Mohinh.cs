@@ -39,4 +39,42 @@ namespace Quanlybangame.DTO
         public int Soluong { get; set; }
         public decimal Thanhtien => Dongia * Soluong;
     }
+
+
+    public sealed class YeucaubanDTO
+    {
+        public Guid YeucauId { get; set; } = Guid.NewGuid();
+        public string MaBam { get; set; } = "";
+        public int? KhachhangId { get; set; }
+        public decimal Giamgia { get; set; }
+        public string Ghichu { get; set; } = "";
+        public List<DongbanDTO> Chitiet { get; set; } = [];
+    }
+
+    public sealed class HoadonDTO
+    {
+        public int Id { get; set; }
+        public string Ma => $"HD{Id:000000}";
+        public DateTime Ngaylap { get; set; }
+        public string Khachhang { get; set; } = "Khách lẻ";
+        public string Dienthoai { get; set; } = "";
+        public decimal Tamtinh { get; set; }
+        public decimal Giamgia { get; set; }
+        public decimal Tongtien { get; set; }
+        public string Trangthai { get; set; } = "Đã thanh toán";
+        public string Ghichu { get; set; } = "";
+        public string LydoHuy { get; set; } = "";
+        public List<DongbanDTO> Chitiet { get; set; } = [];
+    }
+
+    public sealed class NhapkhoDTO
+    {
+        public Guid YeucauId { get; set; } = Guid.NewGuid();
+        public string MaBam { get; set; } = "";
+        public int SanphamId { get; set; }
+        public int Soluong { get; set; }
+        public decimal Dongia { get; set; }
+        public string Nhacungcap { get; set; } = "";
+        public string Ghichu { get; set; } = "";
+    }
 }
