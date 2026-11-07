@@ -1,5 +1,6 @@
 ﻿using Quanlybangame.BLL;
 using Quanlybangame.DTO;
+using QuanlybangameMoi_UI;
 
 namespace Quanlybangame.UI.Forms;
 

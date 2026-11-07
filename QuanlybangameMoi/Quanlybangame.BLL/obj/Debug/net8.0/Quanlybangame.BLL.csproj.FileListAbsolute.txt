@@ -16,3 +16,21 @@ C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameM
 C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.BLL\obj\Debug\net8.0\refint\Quanlybangame.BLL.dll
 C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.BLL\obj\Debug\net8.0\Quanlybangame.BLL.pdb
 C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.BLL\obj\Debug\net8.0\ref\Quanlybangame.BLL.dll
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.BLL\bin\Debug\net8.0\Quanlybangame.BLL.deps.json
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.BLL\bin\Debug\net8.0\Quanlybangame.BLL.dll
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.BLL\bin\Debug\net8.0\Quanlybangame.BLL.pdb
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.BLL\bin\Debug\net8.0\Quanlybangame.DAL.dll
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.BLL\bin\Debug\net8.0\Quanlybangame.DTO.dll
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.BLL\bin\Debug\net8.0\Quanlybangame.DAL.pdb
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.BLL\bin\Debug\net8.0\Quanlybangame.DTO.pdb
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.BLL\obj\Debug\net8.0\Quanlybangame.BLL.csproj.AssemblyReference.cache
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.BLL\obj\Debug\net8.0\Quanlybangame.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.BLL\obj\Debug\net8.0\Quanlybangame.BLL.AssemblyInfoInputs.cache
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.BLL\obj\Debug\net8.0\Quanlybangame.BLL.AssemblyInfo.cs
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.BLL\obj\Debug\net8.0\Quanlybangame.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.BLL\obj\Debug\net8.0\Quanlybangame.BLL.sourcelink.json
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.BLL\obj\Debug\net8.0\Quanlyba.BDB24784.Up2Date
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.BLL\obj\Debug\net8.0\Quanlybangame.BLL.dll
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.BLL\obj\Debug\net8.0\refint\Quanlybangame.BLL.dll
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.BLL\obj\Debug\net8.0\Quanlybangame.BLL.pdb
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.BLL\obj\Debug\net8.0\ref\Quanlybangame.BLL.dll

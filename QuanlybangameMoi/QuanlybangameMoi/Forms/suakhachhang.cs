@@ -1,5 +1,6 @@
 ﻿using System.Runtime.Intrinsics.X86;
 using Quanlybangame.DTO;
+using QuanlybangameMoi_UI;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace Quanlybangame.UI.Forms;

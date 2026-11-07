@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net8.0": {
       "Azure.Core/1.38.0": {
@@ -2080,24 +2080,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Hi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.BLL\\Quanlybangame.BLL.csproj",
+      "projectUniqueName": "C:\\Users\\Hi\\Documents\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.BLL\\Quanlybangame.BLL.csproj",
       "projectName": "Quanlybangame.BLL",
-      "projectPath": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.BLL\\Quanlybangame.BLL.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.BLL\\obj\\",
+      "projectPath": "C:\\Users\\Hi\\Documents\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.BLL\\Quanlybangame.BLL.csproj",
+      "packagesPath": "C:\\Users\\Hi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Hi\\Documents\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.BLL\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2109,13 +2104,14 @@
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DAL\\Quanlybangame.DAL.csproj": {
-              "projectPath": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DAL\\Quanlybangame.DAL.csproj"
+            "C:\\Users\\Hi\\Documents\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DAL\\Quanlybangame.DAL.csproj": {
+              "projectPath": "C:\\Users\\Hi\\Documents\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DAL\\Quanlybangame.DAL.csproj"
             },
-            "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DTO\\Quanlybangame.DTO.csproj": {
-              "projectPath": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DTO\\Quanlybangame.DTO.csproj"
+            "C:\\Users\\Hi\\Documents\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DTO\\Quanlybangame.DTO.csproj": {
+              "projectPath": "C:\\Users\\Hi\\Documents\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DTO\\Quanlybangame.DTO.csproj"
             }
           }
         }
@@ -2130,10 +2126,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "10.0.400"
     },
     "frameworks": {
       "net8.0": {
+        "framework": "net8.0",
         "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.Extensions.Logging": {
@@ -2157,7 +2154,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

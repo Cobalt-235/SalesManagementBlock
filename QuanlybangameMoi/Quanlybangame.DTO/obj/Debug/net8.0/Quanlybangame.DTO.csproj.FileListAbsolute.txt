@@ -22,3 +22,16 @@ C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameM
 C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\refint\Quanlybangame.DTO.dll
 C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\Quanlybangame.DTO.pdb
 C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\ref\Quanlybangame.DTO.dll
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\bin\Debug\net8.0\Quanlybangame.DTO.deps.json
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\bin\Debug\net8.0\Quanlybangame.DTO.dll
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\bin\Debug\net8.0\Quanlybangame.DTO.pdb
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\Quanlybangame.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\Quanlybangame.DTO.AssemblyInfoInputs.cache
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\Quanlybangame.DTO.AssemblyInfo.cs
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\Quanlybangame.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\Quanlybangame.DTO.sourcelink.json
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\Quanlybangame.DTO.dll
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\refint\Quanlybangame.DTO.dll
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\Quanlybangame.DTO.pdb
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\ref\Quanlybangame.DTO.dll
+C:\Users\Hi\Documents\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\Quanlyba.B491F788.Up2Date

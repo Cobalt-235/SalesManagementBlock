@@ -1,7 +1,7 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
-    "net8.0-windows7.0": {
+    "net8.0-windows": {
       "Azure.Core/1.38.0": {
         "type": "package",
         "dependencies": {
@@ -2093,31 +2093,26 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0-windows7.0": [
+    "net8.0-windows": [
       "Microsoft.Extensions.Logging >= 8.0.0",
       "Quanlybangame.BLL >= 1.0.0",
       "Quanlybangame.DTO >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Hi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\QuanlybangameMoi\\QuanlybangameMoi_UI.csproj",
+      "projectUniqueName": "C:\\Users\\Hi\\Documents\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\QuanlybangameMoi\\QuanlybangameMoi_UI.csproj",
       "projectName": "QuanlybangameMoi_UI",
-      "projectPath": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\QuanlybangameMoi\\QuanlybangameMoi_UI.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\QuanlybangameMoi\\obj\\",
+      "projectPath": "C:\\Users\\Hi\\Documents\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\QuanlybangameMoi\\QuanlybangameMoi_UI.csproj",
+      "packagesPath": "C:\\Users\\Hi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Hi\\Documents\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\QuanlybangameMoi\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2128,14 +2123,15 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0-windows7.0": {
+        "net8.0-windows": {
+          "framework": "net8.0-windows7.0",
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.BLL\\Quanlybangame.BLL.csproj": {
-              "projectPath": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.BLL\\Quanlybangame.BLL.csproj"
+            "C:\\Users\\Hi\\Documents\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.BLL\\Quanlybangame.BLL.csproj": {
+              "projectPath": "C:\\Users\\Hi\\Documents\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.BLL\\Quanlybangame.BLL.csproj"
             },
-            "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DTO\\Quanlybangame.DTO.csproj": {
-              "projectPath": "C:\\Users\\Admin\\OneDrive\\Tài liệu\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DTO\\Quanlybangame.DTO.csproj"
+            "C:\\Users\\Hi\\Documents\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DTO\\Quanlybangame.DTO.csproj": {
+              "projectPath": "C:\\Users\\Hi\\Documents\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DTO\\Quanlybangame.DTO.csproj"
             }
           }
         }
@@ -2150,10 +2146,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "10.0.400"
     },
     "frameworks": {
-      "net8.0-windows7.0": {
+      "net8.0-windows": {
+        "framework": "net8.0-windows7.0",
         "targetAlias": "net8.0-windows",
         "dependencies": {
           "Microsoft.Extensions.Logging": {
@@ -2180,7 +2177,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

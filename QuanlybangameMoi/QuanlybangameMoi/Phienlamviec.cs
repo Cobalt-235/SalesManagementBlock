@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using Quanlybangame.BLL;
 using Quanlybangame.DTO;
+using Quanlybangame.UI;
 
 namespace QuanlybangameMoi_UI;
 internal static class Phienlamviec
