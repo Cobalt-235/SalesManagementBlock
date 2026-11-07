@@ -39,4 +39,77 @@ namespace Quanlybangame.DTO
         public int Soluong { get; set; }
         public decimal Thanhtien => Dongia * Soluong;
     }
+
+
+    public sealed class YeucaubanDTO
+    {
+        public Guid YeucauId { get; set; } = Guid.NewGuid();
+        public string MaBam { get; set; } = "";
+        public int? KhachhangId { get; set; }
+        public decimal Giamgia { get; set; }
+        public string Ghichu { get; set; } = "";
+        public List<DongbanDTO> Chitiet { get; set; } = [];
+    }
+
+    public sealed class HoadonDTO
+    {
+        public int Id { get; set; }
+        public string Ma => $"HD{Id:000000}";
+        public DateTime Ngaylap { get; set; }
+        public string Khachhang { get; set; } = "Khách lẻ";
+        public string Dienthoai { get; set; } = "";
+        public decimal Tamtinh { get; set; }
+        public decimal Giamgia { get; set; }
+        public decimal Tongtien { get; set; }
+        public string Trangthai { get; set; } = "Đã thanh toán";
+        public string Ghichu { get; set; } = "";
+        public string LydoHuy { get; set; } = "";
+        public List<DongbanDTO> Chitiet { get; set; } = [];
+    }
+
+    public sealed class NhapkhoDTO
+    {
+        public Guid YeucauId { get; set; } = Guid.NewGuid();
+        public string MaBam { get; set; } = "";
+        public int SanphamId { get; set; }
+        public int Soluong { get; set; }
+        public decimal Dongia { get; set; }
+        public string Nhacungcap { get; set; } = "";
+        public string Ghichu { get; set; } = "";
+    }
+    public sealed class LichsukhoDTO
+    {
+        public DateTime Ngay { get; set; }
+        public string Ma { get; set; } = "";
+        public string Ten { get; set; } = "";
+        public string Loai { get; set; } = "";
+        public int Soluong { get; set; }
+        public int Tonsau { get; set; }
+        public string Thamchieu { get; set; } = "";
+        public string Ghichu { get; set; } = "";
+    }
+    public sealed class DoanhthuNgayDTO
+    {
+        public DateTime Ngay { get; set; }
+        public int Sohoadon { get; set; }
+        public decimal Doanhthu { get; set; }
+    }
+    public sealed class BaocaodoanhthuDTO
+    {
+        public DateTime Tungay { get; set; }
+        public DateTime Denngay { get; set; }
+        public List<DoanhthuNgayDTO> Chitiet { get; set; } = [];
+        public int Sohoadon => Chitiet.Sum(x => x.Sohoadon);
+        public decimal Tongdoanhthu => Chitiet.Sum(x => x.Doanhthu);
+        public decimal BinhquanHoadon => Sohoadon == 0 ? 0 : Tongdoanhthu / Sohoadon;
+        public decimal BinhquanNgay => Tongdoanhthu / Math.Max(1, (Denngay.Date - Tungay.Date).Days + 1);
+    }
+    public sealed class CauhinhDTO
+    {
+        public string Maychu { get; set; } = @".";
+        public string Cosodulieu { get; set; } = "QuanLyBanGameMoi";
+        public bool XacthucWindows { get; set; } = true;
+        public string Taikhoan { get; set; } = "";
+        public bool TinChungchi { get; set; } = true;
+    }
 }
