@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Quanlybangame.BLL\Quanlybangame.BLL.csproj" />
     <ProjectReference Include="..\Quanlybangame.DAL\Quanlybangame.DAL.csproj" />
     <ProjectReference Include="..\Quanlybangame.DTO\Quanlybangame.DTO.csproj" />
   </ItemGroup>
