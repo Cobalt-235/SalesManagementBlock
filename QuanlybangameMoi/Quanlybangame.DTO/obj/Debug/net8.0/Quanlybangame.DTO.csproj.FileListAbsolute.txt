@@ -1,0 +1,12 @@
+Z:\Desgihub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\bin\Debug\net8.0\Quanlybangame.DTO.deps.json
+Z:\Desgihub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\bin\Debug\net8.0\Quanlybangame.DTO.dll
+Z:\Desgihub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\bin\Debug\net8.0\Quanlybangame.DTO.pdb
+Z:\Desgihub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\Quanlybangame.DTO.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Desgihub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\Quanlybangame.DTO.AssemblyInfoInputs.cache
+Z:\Desgihub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\Quanlybangame.DTO.AssemblyInfo.cs
+Z:\Desgihub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\Quanlybangame.DTO.csproj.CoreCompileInputs.cache
+Z:\Desgihub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\Quanlybangame.DTO.sourcelink.json
+Z:\Desgihub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\Quanlybangame.DTO.dll
+Z:\Desgihub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\refint\Quanlybangame.DTO.dll
+Z:\Desgihub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\Quanlybangame.DTO.pdb
+Z:\Desgihub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\ref\Quanlybangame.DTO.dll

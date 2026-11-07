@@ -94,4 +94,22 @@ namespace Quanlybangame.DTO
         public int Sohoadon { get; set; }
         public decimal Doanhthu { get; set; }
     }
+    public sealed class BaocaodoanhthuDTO
+    {
+        public DateTime Tungay { get; set; }
+        public DateTime Denngay { get; set; }
+        public List<DoanhthuNgayDTO> Chitiet { get; set; } = [];
+        public int Sohoadon => Chitiet.Sum(x => x.Sohoadon);
+        public decimal Tongdoanhthu => Chitiet.Sum(x => x.Doanhthu);
+        public decimal BinhquanHoadon => Sohoadon == 0 ? 0 : Tongdoanhthu / Sohoadon;
+        public decimal BinhquanNgay => Tongdoanhthu / Math.Max(1, (Denngay.Date - Tungay.Date).Days + 1);
+    }
+    public sealed class CauhinhDTO
+    {
+        public string Maychu { get; set; } = @".";
+        public string Cosodulieu { get; set; } = "QuanLyBanGameMoi";
+        public bool XacthucWindows { get; set; } = true;
+        public string Taikhoan { get; set; } = "";
+        public bool TinChungchi { get; set; } = true;
+    }
 }
