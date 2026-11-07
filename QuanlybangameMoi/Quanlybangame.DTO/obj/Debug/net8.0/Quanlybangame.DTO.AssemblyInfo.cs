@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Quanlybangame.DTO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+434455ea31855cdacac42313186e4126e0108e72")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2de04d5c6c38de11699df22ac0008d9c45c9790")]
 [assembly: System.Reflection.AssemblyProductAttribute("Quanlybangame.DTO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Quanlybangame.DTO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

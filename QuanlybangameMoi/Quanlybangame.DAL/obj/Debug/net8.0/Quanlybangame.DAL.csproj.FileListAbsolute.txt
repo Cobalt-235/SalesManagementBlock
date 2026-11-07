@@ -1,0 +1,16 @@
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DAL\obj\Debug\net8.0\Quanlybangame.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DAL\obj\Debug\net8.0\Quanlybangame.DAL.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DAL\obj\Debug\net8.0\Quanlybangame.DAL.AssemblyInfo.cs
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DAL\obj\Debug\net8.0\Quanlybangame.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DAL\obj\Debug\net8.0\Quanlybangame.DAL.sourcelink.json
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DAL\bin\Debug\net8.0\Quanlybangame.DAL.deps.json
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DAL\bin\Debug\net8.0\Quanlybangame.DAL.dll
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DAL\bin\Debug\net8.0\Quanlybangame.DAL.pdb
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DAL\bin\Debug\net8.0\Quanlybangame.DTO.dll
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DAL\bin\Debug\net8.0\Quanlybangame.DTO.pdb
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DAL\obj\Debug\net8.0\Quanlybangame.DAL.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DAL\obj\Debug\net8.0\Quanlyba.D6C583CE.Up2Date
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DAL\obj\Debug\net8.0\Quanlybangame.DAL.dll
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DAL\obj\Debug\net8.0\refint\Quanlybangame.DAL.dll
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DAL\obj\Debug\net8.0\Quanlybangame.DAL.pdb
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DAL\obj\Debug\net8.0\ref\Quanlybangame.DAL.dll

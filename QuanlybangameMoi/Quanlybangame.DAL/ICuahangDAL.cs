@@ -1,9 +1,9 @@
-﻿using Quanlybangame.DTO;
+using Quanlybangame.DTO;
 
 
 namespace Quanlybangame.DAL
 {
-    internal interface ICuahangDAL
+    public interface ICuahangDAL
     {
         List<SanphamDTO> TimSanpham(string tukhoa, bool chiconhang = false);
         int LuuSanpham(SanphamDTO sanpham);

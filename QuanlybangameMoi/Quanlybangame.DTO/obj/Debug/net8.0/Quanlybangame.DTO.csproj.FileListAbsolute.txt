@@ -10,3 +10,15 @@ Z:\Desgihub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\ne
 Z:\Desgihub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\refint\Quanlybangame.DTO.dll
 Z:\Desgihub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\Quanlybangame.DTO.pdb
 Z:\Desgihub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\ref\Quanlybangame.DTO.dll
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\bin\Debug\net8.0\Quanlybangame.DTO.deps.json
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\bin\Debug\net8.0\Quanlybangame.DTO.dll
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\bin\Debug\net8.0\Quanlybangame.DTO.pdb
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\Quanlybangame.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\Quanlybangame.DTO.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\Quanlybangame.DTO.AssemblyInfo.cs
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\Quanlybangame.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\Quanlybangame.DTO.sourcelink.json
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\Quanlybangame.DTO.dll
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\refint\Quanlybangame.DTO.dll
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\Quanlybangame.DTO.pdb
+C:\Users\Admin\OneDrive\Tài liệu\GitHub\SalesManagementBlock\QuanlybangameMoi\Quanlybangame.DTO\obj\Debug\net8.0\ref\Quanlybangame.DTO.dll
