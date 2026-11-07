@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hi\\Documents\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DAL\\Quanlybangame.DAL.csproj": {}
+    "Z:\\Desgihub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DAL\\Quanlybangame.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hi\\Documents\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DAL\\Quanlybangame.DAL.csproj": {
+    "Z:\\Desgihub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DAL\\Quanlybangame.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hi\\Documents\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DAL\\Quanlybangame.DAL.csproj",
+        "projectUniqueName": "Z:\\Desgihub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DAL\\Quanlybangame.DAL.csproj",
         "projectName": "Quanlybangame.DAL",
-        "projectPath": "C:\\Users\\Hi\\Documents\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DAL\\Quanlybangame.DAL.csproj",
-        "packagesPath": "C:\\Users\\Hi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hi\\Documents\\GitHub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DAL\\obj\\",
+        "projectPath": "Z:\\Desgihub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DAL\\Quanlybangame.DAL.csproj",
+        "packagesPath": "C:\\Users\\Tin\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desgihub\\SalesManagementBlock\\QuanlybangameMoi\\Quanlybangame.DAL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +30,6 @@
         },
         "frameworks": {
           "net8.0": {
-            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -41,11 +44,10 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.400"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
-          "framework": "net8.0",
           "targetAlias": "net8.0",
           "imports": [
             "net461",
@@ -63,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
