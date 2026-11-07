@@ -32,5 +32,24 @@ namespace Quanlybangame.BLL
             catch (InvalidOperationException e) { log.LogWarning(e, "Không thể thực hiện {Tacvu}", tacvu); throw; }
             catch (Exception e) { log.LogError(e, "Lỗi khi {Tacvu}", tacvu); throw; }
         }
+
+
+        public List<SanphamDTO> TimSanpham(string tukhoa = "", bool chiconhang = false) => Thucthi("tìm sản phẩm", () => dal.TimSanpham(Chuanhoa(tukhoa), chiconhang));
+        public int LuuSanpham(SanphamDTO s) => Thucthi("lưu sản phẩm", () =>
+        {
+            s.Ma = Chuanhoa(s.Ma).ToUpperInvariant(); s.Ten = Chuanhoa(s.Ten); s.Theloai = Chuanhoa(s.Theloai);
+            s.Nentang = Chuanhoa(s.Nentang); s.Nhaphathanh = Chuanhoa(s.Nhaphathanh); s.Mota = Chuanhoa(s.Mota);
+            Ma(s.Ma); Chuoi(s.Ten, "tên game", 150, true); Chuoi(s.Theloai, "thể loại", 80, true);
+            Chuoi(s.Nentang, "nền tảng", 50, true); Chuoi(s.Nhaphathanh, "nhà phát hành", 100); Chuoi(s.Mota, "mô tả", 1000);
+            Tien(s.Gianhap, "Giá nhập"); Tien(s.Giaban, "Giá bán", false);
+            if (s.Tonkho < 0 || s.Id == 0 && s.Tonkho > 1000000 || s.TonToithieu < 0 || s.TonToithieu > 1000000) throw new ArgumentException("Tồn đầu kỳ và ngưỡng cảnh báo phải từ 0 đến 1.000.000.");
+            if (s.Id < 0 || s.Id > 0 && s.Phienban.Length != 8) throw new ArgumentException("Phiên bản game không hợp lệ. Hãy tải lại danh sách.");
+            int id = dal.LuuSanpham(s); log.LogInformation("{Tacvu} sản phẩm {Ma}, Id {Id}", s.Id == 0 ? "Thêm" : "Cập nhật", s.Ma, id); return id;
+        });
+        public void XoaSanpham(SanphamDTO s) => Thucthi("xóa sản phẩm", () =>
+        {
+            if (s.Id <= 0 || s.Phienban.Length != 8) throw new ArgumentException("Vui lòng chọn game trong danh sách.");
+            dal.XoaSanpham(s); log.LogInformation("Xóa sản phẩm {Ma}, Id {Id}", s.Ma, s.Id); return 0;
+        });
     }
 }
