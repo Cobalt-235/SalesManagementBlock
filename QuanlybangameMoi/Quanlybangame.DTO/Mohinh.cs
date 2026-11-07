@@ -30,4 +30,13 @@ namespace Quanlybangame.DTO
         public byte[] Phienban { get; set; } = [];
         public override string ToString() => Id == 0 ? "Khách lẻ" : $"{Ma} • {Hoten}";
     }
+    public sealed class DongbanDTO
+    {
+        public int SanphamId { get; set; }
+        public string Ma { get; set; } = "";
+        public string Ten { get; set; } = "";
+        public decimal Dongia { get; set; }
+        public int Soluong { get; set; }
+        public decimal Thanhtien => Dongia * Soluong;
+    }
 }
