@@ -1,3 +1,6 @@
 <Solution>
+  <Project Path="Quanlybangame.DTO/Quanlybangame.DTO.csproj" />
+  <Project Path="Quanlybangame.DAL/Quanlybangame.DAL.csproj" />
+  <Project Path="Quanlybangame.BLL/Quanlybangame.BLL.csproj" />
   <Project Path="QuanlybangameMoi/QuanlybangameMoi_UI.csproj" />
 </Solution>
