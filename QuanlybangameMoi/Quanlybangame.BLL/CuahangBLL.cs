@@ -51,5 +51,7 @@ namespace Quanlybangame.BLL
             if (s.Id <= 0 || s.Phienban.Length != 8) throw new ArgumentException("Vui lòng chọn game trong danh sách.");
             dal.XoaSanpham(s); log.LogInformation("Xóa sản phẩm {Ma}, Id {Id}", s.Ma, s.Id); return 0;
         });
+
+        // Bo sung them cac method ve khach hang, xoa dong nay sau khi them
     }
 }
